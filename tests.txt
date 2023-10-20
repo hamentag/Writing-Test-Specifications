@@ -1,0 +1,12 @@
+
+# Unit Tests:
+1. "multiplication" function: returns the product of the two input numbers.
+    Expect multiplication(2,5) to be a number
+    Expect multiplication(2,5) to be equal to 10
+    Expect multiplication(4,3) to be equal to 4 + 4 + 4
+    Expect multiplication("someStr",3) to be an error
+    Expect multiplication(0,5) to be equal to 0
+    Expect multiplication(x,0) to be equal to 0
+    Expect multiplication(1,4) to be equal to 4
+    Expect multiplication(1,y) to be equal to y
+    Expect multiplication(m,n) to be equal to n * m
