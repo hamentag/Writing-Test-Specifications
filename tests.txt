@@ -23,6 +23,16 @@ of the arrays.
            resultingArray[index + 1] < resultingArray [index] for each index < resultingArray.length
     Expect concatOdds([2,5,3,5],[3,8,1]) to be equal to [1,3,5]
 
-
-
-
+# Functional Tests:
+1. Shopping cart checkout feature:
+    * Review: Display the shopping cart so that the user can inspect and confirm the selected 
+    items and quantities.
+    * Account Prompt: The user is asked if they want to check out as a guest or as a logged-in user.
+        * if the user chooses to check out as a logged-in user, they are prompted to create one by 
+        providing their email address and a password (Or jump to the login page).
+    * Payment: After either logging in or choosing to check out as a guest, the user selects their 
+    preferred payment method, such as credit/debit card, or other options, and inputs 
+    the necessary details (Name on card, card number, CVV, billing address, etc.).
+    * Confirmation: Once the user confirms the order, the system generates an order summary that 
+    includes the purchased items, prices, applicable taxes or fees, last four digits of the payment 
+    card, etc.
